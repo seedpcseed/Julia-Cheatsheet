@@ -12,12 +12,13 @@
 | Replace substring or regular expression        | `replace("Julia", "a" => "us") == "Julius"` |
 | Last index (of collection)                     | `lastindex("Hello") == 5`                   |
 | Number of characters                           | `length("Hello") == 5`                      |
+| Separate characters                            | `collect.(["string1", "another string"])`    |
+| Length of multiple Strings                     | `length.(["string1", "another string"])`    |
 | Regular expression                             | `pattern = r"l[aeiou]"`                     |
 | Subexpressions                                 | `str = "+1 234 567 890"`<br>`pat = r"\+([0-9]) ([0-9]+)"`<br>`m = match(pat, str)`<br>`m.captures == ["1", "234"]` |
 | All occurrences                                | `[m.match for m = eachmatch(pat, str)]`     |
 | All occurrences (as iterator)                  | `eachmatch(pat, str)`                       |
-| First occurrance of Character | `findfirst("k", "this is a keen statement")` |
-| Replacement in string | `replace(s, "geek" => "champian")` |
+
 
 Beware of multi-byte Unicode encodings in UTF-8: <br>
 `10 == lastindex("Ångström") != length("Ångström") == 8`
