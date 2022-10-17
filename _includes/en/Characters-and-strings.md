@@ -17,6 +17,7 @@
 | All occurrences                                | `[m.match for m = eachmatch(pat, str)]`     |
 | All occurrences (as iterator)                  | `eachmatch(pat, str)`                       |
 | First occurrance of Character | `findfirst("k", "this is a keen statement")` |
+| Replacement in string | `r = replace(s, "geek" => "champian")` |
 
 Beware of multi-byte Unicode encodings in UTF-8: <br>
 `10 == lastindex("Ångström") != length("Ångström") == 8`
