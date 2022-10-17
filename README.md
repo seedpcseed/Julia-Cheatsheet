@@ -1,11 +1,11 @@
 ## Julia-Cheat-Sheet
 
-[Julia Cheat Sheet for v 1.0](https://juliadocs.github.io/Julia-Cheat-Sheet/)
+[Julia Cheat Sheet for v 1.6](https://seedpcseed.github.io/Julia-Cheatsheet/)
 
 **Thanks!**
 
-[Go to GitHub Page](https://juliadocs.github.io/Julia-Cheat-Sheet/)
+[Go to GitHub Page](https://seedpcseed.github.io/Julia-Cheatsheet/)
 
 ### License
 
-[MIT](https://github.com/JuliaDocs/Julia-Cheat-Sheet/blob/master/LICENSE)
+[MIT](https://github.com/seedpcseed/Julia-Cheatsheet/blob/master/LICENSE)
