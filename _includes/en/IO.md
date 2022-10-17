@@ -8,3 +8,4 @@
 | Load Julia Object | `using JLD`<br>`d = load(filename) # Returns a dict of objects`                 |
 | Save HDF5         | `using HDF5`<br>`h5write(filename, "key", object)`                              |
 | Load HDF5         | `using HDF5`<br>`h5read(filename, "key")`                                       |
+| Read Dir          | `readdir(path)`<br>`readdir(path)[contains.(readdir(path), "pattern')]`         |
