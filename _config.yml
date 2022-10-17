@@ -3,6 +3,7 @@ baseurl: "/Julia-Cheatsheet/"
 description: "The Fast Track to Julia - Julia Cheat Sheet"
 github_username: seedpcseed
 markdown: kramdown
+theme: minima
 
 t:
   en:
