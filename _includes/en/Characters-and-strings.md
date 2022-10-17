@@ -16,7 +16,7 @@
 | Subexpressions                                 | `str = "+1 234 567 890"`<br>`pat = r"\+([0-9]) ([0-9]+)"`<br>`m = match(pat, str)`<br>`m.captures == ["1", "234"]` |
 | All occurrences                                | `[m.match for m = eachmatch(pat, str)]`     |
 | All occurrences (as iterator)                  | `eachmatch(pat, str)`                       |
-
+| First occurrance of Character | `findfirst("k", "this is a keen statement")` |
 
 Beware of multi-byte Unicode encodings in UTF-8: <br>
 `10 == lastindex("Ångström") != length("Ångström") == 8`
