@@ -9,3 +9,4 @@
 | Save HDF5         | `using HDF5`<br>`h5write(filename, "key", object)`                              |
 | Load HDF5         | `using HDF5`<br>`h5read(filename, "key")`                                       |
 | Read Dir          | `readdir(path)`<br>`readdir(path)[contains.(readdir(path), "pattern')]`         |
+| Get path          | `pwd()`<br>`realpath("relative path/file")`<br>`relpath("real path")`     |
